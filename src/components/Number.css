@@ -1,0 +1,19 @@
+.grade-Nume{
+    background: linear-gradient(to right, #ff7e5f, #7babfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 62px;
+}
+.sup{
+    font: 28px
+    ;
+}
+.Text-center{
+    text-align: center;
+}
+@media only screen and (max-width: 770px) {
+    .NUM{
+        flex-direction: column;
+        text-align: center;
+    }
+}

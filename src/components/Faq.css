@@ -1,0 +1,54 @@
+.faq{
+    background-color: #FAFAFA;
+}
+.accordion-item {
+    position: relative;
+    background: #fff;
+    border-left: 5px solid transparent;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 4px 4px 0 rgba(0,0,0,0.19);
+
+}
+.accordion-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to bottom, #ff7e5f, #7babfe);
+}
+
+.accordion-title {
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.Faq-bttn{
+    background-color: #1C4670;
+    color: white;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #f9f9f9;
+    padding: 0 15px;
+    font-size: 16px;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* Hide checkboxes */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Expand content when checkbox is checked */
+input[type="checkbox"]:checked + .accordion-title + .accordion-content {
+    max-height: 200px;
+    padding: 15px;
+}

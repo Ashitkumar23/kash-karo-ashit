@@ -1,0 +1,41 @@
+.make{
+    background-color: #FFA229;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+.fa-list-check{
+    /* color: red; */
+    margin-right: 5px;
+    background-color: red;
+    height: 35px;
+    color: white;
+    border-radius: 30px;
+}
+.fa-credit-card{
+ 
+    background-color: green;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+.fa-headset{
+    background-color:rgb(158, 95, 0);
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+.fa-envelope{
+    background-color:gray;
+    color: white;
+    height: 35px;
+    border-radius: 30px; 
+    margin-right: 5px;
+}
+@media only screen and (max-width: 770px) {
+    .Make-res{
+        flex-direction: column;
+    }
+}

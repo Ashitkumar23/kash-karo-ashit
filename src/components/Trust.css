@@ -1,0 +1,28 @@
+
+.Trust-head{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+}
+.trust-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+@media only screen and (max-width: 770px) {
+   .trust-res{
+    font-size: 22px;
+   }
+   .trust-img{
+    flex-direction: column;
+    justify-content: center;
+
+   }
+   .Trust-head{
+    text-align: center;
+   }
+   .tu{
+    margin-top: 25px;
+
+   }
+}

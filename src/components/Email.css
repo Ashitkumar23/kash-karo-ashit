@@ -1,0 +1,27 @@
+.Email{
+    color: white;
+    background: rgb(255,162,41);
+background: linear-gradient(159deg, rgba(255,162,41,1) 0%, rgba(119,107,84,1) 53%, rgba(28,70,112,1) 100%);
+}
+.enter-email{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+}
+.btn-email{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+@media only screen and (max-width: 770px) {
+    .enter-email{
+        width: 200px;
+    }
+    .ema-text{
+        font-size: 10px;
+        margin: 5px;
+    }
+}

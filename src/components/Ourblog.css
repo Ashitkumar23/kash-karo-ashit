@@ -1,0 +1,71 @@
+.blog-car{
+    width: 370px;
+    border: none;
+}
+.blogcard-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+.Explore-top{
+    color: orange;
+    font-weight: 500;
+}
+.EXp-alig{
+    text-align: center;
+}
+.blogcard-text-sec{
+    font-size: 14px;
+    /* font-weight: 500; */
+    color: gray;
+}
+.blog-img{
+    height: 200px;
+}
+.voilet{
+    font-size: 12px;
+    font-weight: 500;
+    color: violet;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(238, 130, 238, 0.155);
+}
+.purple{
+    font-size: 12px;
+    font-weight: 500;
+    color: purple;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(128, 0, 128, 0.155);
+}
+.green{
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.155);
+}
+.orange{
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px;
+    color: orange;
+    background-color: rgba(255, 166, 0, 0.155);
+}
+.red{
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.155);
+}
+.blog-icon{
+    float: inline-end;
+}
+.btn-blog{
+    background-color: #1C4670;
+    color: white;
+}

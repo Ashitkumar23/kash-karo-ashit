@@ -1,0 +1,13 @@
+.excard{
+    height: 300px;
+    border: none;
+    /* width: 350px; */
+}
+.top{
+    height: 100px;
+    width: 100px;
+}
+.card-btn{
+    font-weight: 500;
+
+}

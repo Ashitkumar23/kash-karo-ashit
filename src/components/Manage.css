@@ -1,0 +1,30 @@
+.Manage{
+    background-color: #1C4670;
+   height: 60vh;
+}
+.manage-head{
+    color: white;
+    font-weight: 700;
+}
+.manage-text{
+    font-size: 18px;
+    color: gray;
+}
+.manage-get{
+    color: white;
+}
+.fa-apple-whole , .fa-play{
+    font-size: 28px;
+    color: greenyellow;
+}
+.manage-down{
+    line-height: 1.2;
+}
+.mac,.play{
+    background-color: white;
+    width: 150px;
+    height: 60px;
+}
+.mobile-manage{
+ float:  right;
+}

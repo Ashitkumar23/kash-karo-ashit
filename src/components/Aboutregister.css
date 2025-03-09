@@ -1,0 +1,28 @@
+.About-register{
+    background-color: #FAFAFA;
+    background-image: url(../assests/registerback.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.btn-col{
+    background-color: #1C4670;
+    color: white;
+}
+.aboutreg-sm-head{
+    color: #EB8D15;
+}
+.abreg-span{
+   color:   #272D37;
+}
+.about-reg-head{
+    color: #EB8D15;
+}
+.reg-tex{
+    font-size: 18px;
+}
+@media only screen and (max-width: 770px) {
+    .About-img{
+        width: 300px;
+        margin-top: 40px;
+    }
+}

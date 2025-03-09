@@ -1,0 +1,131 @@
+
+.hero-sec{
+    height: 85vh;
+    background-image: url(../assests/Herobackjpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-text{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.hero-hr{
+    color: red;
+    width: 40px;
+    height: 20px;
+}
+.material-symbols-outlined{
+    font-size: 48px;
+}
+.fa-star{
+    color: yellow;
+}
+.rating{
+    color: black;
+}
+.Window{
+    display: flex;
+    margin-top: 25px;
+}
+.Window-sec{
+    display: flex;
+    line-height: 1.2;
+    margin-right: 45px;
+    
+}
+.hero-rat-text{
+    line-height: 8px;
+    margin-top: 10px;
+}
+.hero-icon{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.hero-main-text{
+    font-size: 22px;
+}
+.Hero-main-head{
+    font-size: 50px;
+}
+.hero-text-sec{
+    
+    background: linear-gradient(to right, #ff7e5f, #7babfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* width: 163px; */
+    position: absolute;
+    top: 20%;
+    right: 1px;
+}
+.her-btn{
+   background-color: white;
+   height: 45px;
+   width: 170px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+@media only screen and (max-width: 770px) {
+    .Hero-main-head{
+        font-size: 20px;
+    }
+    .hero-main-text{
+        font-size: 16px;
+    }
+    .hero-text{
+        position: absolute;
+        top: 120px;
+    }
+    .fa-star{
+        font-size: 14px;
+    }
+    .rating{
+        font-size: 14px;
+    }
+    .how{
+        width: 160px;
+        font-size: 12px;
+    }
+   
+    .btn-danger{
+        width: 120px;
+        font-size: 14px;
+    }
+    .material-symbols-outlined{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .hero-rat-text{
+        font-size: 20px;
+    }
+    .hero-text-sec{
+        font-size: 8x;
+    }
+    .her-btn{
+        height: 30px;
+        width: 100px;
+        font-size: 8px;
+    }
+    .hero-buttons{
+        position: absolute;
+        top: 12%;
+    }
+    .Window-sec{
+        margin-right: 20px;
+        width: 200px;
+    }
+    .hero-icon{
+        font-size: 18px;
+    }
+    .her-res{
+        font-size: 8px;
+    }
+    .hero-sec{
+        height: 64vh;
+    }
+}
